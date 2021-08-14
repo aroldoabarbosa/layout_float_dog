@@ -20,7 +20,7 @@ div img {
 .row::after {
     content: '';
     display: table;
-    clear: both;
+    /*clear: both;*/
 }
 .col-1-4,
 .col-2-3,
@@ -69,12 +69,10 @@ h3 {
 p {
 font-size: 1em;
 }
-
 .main-title {
     text-align: center; 
     padding: 1em;
 }
-
  .imagem {
      float:left;
      margin: 10px;
@@ -106,7 +104,6 @@ font-size: 1em;
 margin-right: 0;
 float: left;
 }
-
 .col-2-4{
     width: 20%;
 }
